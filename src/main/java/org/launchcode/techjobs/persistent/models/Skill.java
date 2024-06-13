@@ -8,7 +8,7 @@ import jakarta.validation.constraints.Size;
 public class Skill extends AbstractEntity {
 
     @NotNull
-    @Size(min = 10, max = 50,  message = "Name must be between 10 and 50 characters")
+    @Size(min = 10, max = 50,  message = "Description must be between 10 and 50 characters")
     private String description;
 
     public Skill(){}
